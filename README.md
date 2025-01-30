@@ -39,11 +39,11 @@ Here’s the complete list of programs included in this repository:
 
 1. **Clone this repository**:  
    ```bash
-   git clone https://github.com/shoryaagrawal553/C++-basic.git
+   git clone https://github.com/shoryaagrawal553/Cpp-basic.git
    ```
 2. **Navigate to the directory**:  
    ```bash
-   cd C++-basic
+   cd Cpp-basic
    ```
 3. **Compile and run the programs**:  
    Use a C compiler like GCC to compile and execute the programs. Example:  
