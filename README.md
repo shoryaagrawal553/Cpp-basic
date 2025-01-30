@@ -32,7 +32,7 @@ Here’s the complete list of programs included in this repository:
 - sum.cpp`
 - random`
 - question`
-- question from HR`
+- question from Hacker Rank`
 - xyz`
 
 ## 🚀 Getting Started
