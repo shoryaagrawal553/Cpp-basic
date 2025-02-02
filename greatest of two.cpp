@@ -1,16 +1,21 @@
 #include<iostream>
 using namespace std;
+
 int main()
 {
     int a, b;
-    cout<<"Enter two numbers for the comparision ";
-    cin>>a>>b;
-    if(a>b)
+    
+    // Prompt user to enter two numbers for comparison
+    cout << "Enter two numbers for the comparison ";
+    cin >> a >> b;
+    
+    // Compare the two numbers and display the greatest one
+    if (a > b)
     {
-        cout<<" "<<a<<" is the greatest number";
+        cout << " " << a << " is the greatest number";
     }
     else
     {
-        cout<<" "<<b<<" is the is greatest number";
+        cout << " " << b << " is the greatest number";
     }
 }
