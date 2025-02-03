@@ -16,10 +16,10 @@ int main() {
     {
         if(i%2==0)
         {
-            cout<<n[i]<<"even\n";
+            cout<<n[i]<<"even \n";
         }
         else {
-        cout<<n[i]<<"odd\n";
+        cout<<n[i]<<"odd \n";
         }
     }
     }
