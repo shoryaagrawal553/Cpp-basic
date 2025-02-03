@@ -17,10 +17,10 @@ int main() {
     {
         if(i%2==0)
         {
-            cout<<n[i]<<" even \n";
+            cout<<i<<" even \n";
         }
         else {
-        cout<<n[i]<<" odd \n";
+        cout<<i<<" odd \n";
         }
     }
     }
