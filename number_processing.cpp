@@ -4,6 +4,7 @@ using namespace std;
 int main() {
     int a, b, i;
     string n[10]={"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+    cout<<"enter \n";
     cin>>a;
     cin>>b;
     if(a<=9 && a>=0 && b<=9 && b>=0)
@@ -16,10 +17,10 @@ int main() {
     {
         if(i%2==0)
         {
-            cout<<n[i]<<"even \n";
+            cout<<n[i]<<" even \n";
         }
         else {
-        cout<<n[i]<<"odd \n";
+        cout<<n[i]<<" odd \n";
         }
     }
     }
