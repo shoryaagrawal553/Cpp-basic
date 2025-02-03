@@ -6,7 +6,7 @@ int main() {
     string n[10]={"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     cin>>a;
     cin>>b;
-    if(a<=9 && b<=9)
+    if(a<=9 && a>=0 && b<=9 && b>=0)
     {
         for(i=a; i<=b; i++)
         cout<<""<<n[i]<<"\n";
