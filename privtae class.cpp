@@ -1,29 +1,37 @@
 #include<iostream>
 using namespace std;
+
+// Base class A
 class A
 {
     public:
     int n1, n2;
-   // private:
+
+    // Function to get two numbers from user
     void get()
     {
-        cout<<"\nEnter two numbers ";
-        cin>>n1>>n2;
+        cout << "\nEnter two numbers ";
+        cin >> n1 >> n2;
     }
 };
-    class B: private A
+
+// Derived class B inherits from class A privately
+class B: private A
+{
+    public:
+    int sum;
+
+    // Function to get numbers, calculate sum and display it
+    void show()
     {
-        public:
-        int sum;
-        void show()
-        {
-            get();
-            sum=n1+n2;
-            cout<<"Sum is "<<sum;
-        }
-    };
-    int main()
-    {
-        B b;
-        b.show();
+        get();  // Calling base class function to get numbers
+        sum = n1 + n2;  // Calculating sum of the numbers
+        cout << "Sum is " << sum;  // Displaying the sum
     }
+};
+
+int main()
+{
+    B b;
+    b.show();  // Displaying the sum
+}
