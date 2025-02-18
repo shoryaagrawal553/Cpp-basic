@@ -5,7 +5,7 @@ using namespace std;
 class student
 {
     public:
-    // Member variables to store student information
+    // Member variables to store student information 
     char name[100];
     int roll;
     float per;
