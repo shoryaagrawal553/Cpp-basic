@@ -26,7 +26,7 @@ void student :: get()
 // Member function definition to display student details
 void student :: show()
 {
-    cout<<"\n Name: "<<name; // Display the student's name
+    cout<<"\n Name: "<<name; // Display the student's name 
     cout<<"\n Roll no.: "<<roll; // Display the student's roll number
 }
 
