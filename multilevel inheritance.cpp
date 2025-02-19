@@ -6,7 +6,7 @@ class b
 {
     public:
     int n1;
-
+ 
     // Function to get a number from user
     public:
     void get()
