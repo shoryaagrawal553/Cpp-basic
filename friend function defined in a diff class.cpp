@@ -48,7 +48,7 @@ void show(Addition add)
     cout<<"\nSum is "<<sum; // Display the sum
 }
 
-
+ 
 int main()
 {
     // Create objects of the 'addition' and 'B' classes
