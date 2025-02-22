@@ -2,7 +2,7 @@
 using namespace std;
 
 // Define a class named 'addition'
-class addition
+class Addition
 {
     public:
     // Member variables to store two integers
@@ -16,7 +16,7 @@ class addition
     }
 
     // Friend function declaration to show the sum of two integers
-    friend void show(addition add);
+    friend void show(Addition add);
 };
 
 // Define a class named 'B'
@@ -24,13 +24,13 @@ class B
 {
     public:
     // Member function to display a message
-    void show2()
+    void show()
     {
         cout<<"Experimentttttttttt >w< ";
     }
 
     // Member function to show the sum of two integers from addition object
-    void show(addition add)
+    void show(Addition add)
     {
         int sum;
         sum = add.n1 + add.n2; // Calculate the sum
@@ -50,12 +50,12 @@ void show(addition add)
 int main()
 {
     // Create objects of the 'addition' and 'B' classes
-    addition a;
+    Addition a;
     B b;
 
     // Call member functions to get input, display message, and show sum
     a.get();
-    b.show2();
+    b.show();
     b.show(a);
 
     return 0; // Return 0 to indicate successful execution
