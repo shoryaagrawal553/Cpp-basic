@@ -4,10 +4,11 @@ using namespace std;
 // Define a class named 'addition'
 class Addition
 {
-    public:
+    private:
     // Member variables to store two integers
     int n1, n2;
 
+    public:
     // Member function to get two integers from user input
     void get()
     {
@@ -19,8 +20,8 @@ class Addition
     friend void show(Addition add);
 };
 
-// Define a class named 'B'
-class B 
+
+class B   // hence this class is of no use here
 {
     public:
     // Member function to display a message
@@ -30,33 +31,36 @@ class B
     }
 
     // Member function to show the sum of two integers from addition object
-    void show(Addition add)
-    {
-        int sum;
-        sum = add.n1 + add.n2; // Calculate the sum
-        cout<<"\nSum is "<<sum; // Display the sum
-    }
+    // friend void show(Addition add)  // this part causes error because friend function can not be 
+                                      //called by object of another class
+    // {
+    //     int sum;
+    //     sum = add.n1 + add.n2; // Calculate the sum
+    //     cout<<"\nSum is "<<sum; // Display the sum
+    // }
 };
 
-/*
-void show(addition add)
+// Friend function definition to show the sum of two integers
+void show(Addition add)
 {
     int sum;
     sum = add.n1 + add.n2; // Calculate the sum
     cout<<"\nSum is "<<sum; // Display the sum
 }
-*/
+
 
 int main()
 {
     // Create objects of the 'addition' and 'B' classes
     Addition a;
-    B b;
+   // B b;
 
     // Call member functions to get input, display message, and show sum
     a.get();
-    b.show();
-    b.show(a);
+   // b.show();
+    //b.show(a);  // this part causes error because friend function can not be 
+                  //called by object of another class
+    show(a);
 
     return 0; // Return 0 to indicate successful execution
 }
