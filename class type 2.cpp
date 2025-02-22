@@ -10,12 +10,12 @@ class student
   
     public:
     // Member function declarations
-    void get(); 
+    void get();  
     void show();
 };
 
 // Member function definition to get student details from user input
-void student :: get()
+void student :: get()    // function defination outside the class 
 {
     cout<<"Enter name ";
     cin>>name; // Get the student's name
