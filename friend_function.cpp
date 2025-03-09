@@ -8,7 +8,7 @@ class Addition
     // Member variables to store two integers
     int n1, n2;
 
-    public:
+    public: 
     // Member function to get two integers from user input
     void get()
     {
