@@ -6,7 +6,7 @@ class student
 {
     // Private member variables to store student information
     char name[100];
-    int roll;
+    int roll; 
   
     public:
     // Member function declarations
