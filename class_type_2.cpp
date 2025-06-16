@@ -2,7 +2,7 @@
 using namespace std;
 
 // Define a class named 'student' 
-class student
+class student 
 {
     // Private member variables to store student information
     char name[100];
