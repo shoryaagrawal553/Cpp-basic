@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int a, b;
+    int a, b; 
     
     // Prompt user to enter two numbers for comparison
     cout << "Enter two numbers for the comparison ";
