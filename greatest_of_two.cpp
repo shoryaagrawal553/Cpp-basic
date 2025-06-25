@@ -10,6 +10,7 @@ int main()
     cin >> a >> b;
     
     // Compare the two numbers and display the greatest one
+    if (a > b)
     {
         cout << " " << a << " is the greatest number";
     }
