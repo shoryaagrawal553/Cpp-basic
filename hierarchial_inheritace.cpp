@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std; 
+using namespace std;  
  
 // Class A definition
 class A 
