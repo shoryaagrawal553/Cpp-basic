@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
  
 // Function declaration for adding two integers
 int add(int, int);
