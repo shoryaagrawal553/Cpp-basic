@@ -3,7 +3,7 @@ using namespace std;
 
 // Class A definition
 class A
-{
+{ 
 public:
     int n, i, j;
     
