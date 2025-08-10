@@ -3,7 +3,7 @@ using namespace std;
    
 // Function declaration for adding two integers
 int add(int, int);
- 
+  
 // Function declaration for adding two floats
 float add(float, float);
 
