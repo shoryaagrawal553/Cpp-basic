@@ -1,7 +1,7 @@
 #include <iostream> 
 using namespace std;
     
-// Define a class named 'addition' 
+// Define a class named 'addition'  
 class addition
 {
     public:
