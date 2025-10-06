@@ -1,6 +1,6 @@
 #include <iostream> 
 using namespace std;
-      b
+      
 // Define a class named 'addition'  
 class addition
 {
