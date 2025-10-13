@@ -1,5 +1,5 @@
 #include <iostream> 
-using namespace std;
+using namespace std; 
       
 // Define a class named 'addition'  
 class addition 
