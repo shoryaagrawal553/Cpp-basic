@@ -2,7 +2,7 @@
 using namespace std;
       
 // Define a class named 'addition'  
-class addition
+class addition 
 {
     public:
     // Member variables to store two integers
