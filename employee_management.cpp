@@ -2,7 +2,7 @@
 using namespace std;
  
 // Base class employee 
-class employee
+class employee 
 { 
     public:
     int id;
