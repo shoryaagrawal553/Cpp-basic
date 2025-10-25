@@ -1,7 +1,7 @@
 #include<iostream> 
 using namespace std;
   
-// Base class employee 
+// Base class employee  
 class employee 
 { 
     public:
