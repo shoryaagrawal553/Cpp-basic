@@ -1,6 +1,6 @@
  #include<iostream>
 using namespace std; 
-
+ 
 // Define a class named 'student' 
 class student
 {
