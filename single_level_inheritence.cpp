@@ -3,7 +3,7 @@ using namespace std;
 
 // Base class
 class base
-{
+{ 
     public:
     int n1, n2;
 
