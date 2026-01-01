@@ -1,7 +1,7 @@
 #include <iostream> 
 using namespace std;
 
-// Class demo definition
+// Class demo definition 
 class demo
 {
 public:
