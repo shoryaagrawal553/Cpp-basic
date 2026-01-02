@@ -1,5 +1,5 @@
 #include <iostream> 
-using namespace std;
+using namespace std; 
 
 // Class demo definition  
 class demo
