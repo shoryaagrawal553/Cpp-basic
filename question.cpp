@@ -12,7 +12,7 @@ class staff
     {
         cout << "\nEnter staff ID ";
         cin >> id1;
-    }
+    } 
 };
 
 // Derived class accountant inherits from staff
