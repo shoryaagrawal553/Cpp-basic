@@ -15,7 +15,7 @@ class staff
     } 
 }; 
 
-// Derived class accountant inherits from staff
+// Derived class accountant inherits from staff 
 class accountant: public staff 
 {
     public:
