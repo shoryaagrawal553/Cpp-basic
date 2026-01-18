@@ -78,7 +78,7 @@ class permanent: public faculty
 // Derived class visitng inherits from faculty
 class visitng: public faculty
 {
-    public:
+    public: 
     int n;
 
     // Function to get visiting faculty details and calculate their salary
