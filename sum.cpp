@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int a, b;
+    int a, b; 
 
     // Prompt the user to enter two numbers
     cout << "Enter two numbers ";
