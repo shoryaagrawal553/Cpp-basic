@@ -6,7 +6,7 @@ class employee
 {  
     public:
     int id;
-    char name[100];
+    char name[100]; 
 
     // Constructor to get employee's name and ID from user
     employee ()
