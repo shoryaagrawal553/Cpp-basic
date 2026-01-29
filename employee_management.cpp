@@ -11,7 +11,7 @@ class employee
     // Constructor to get employee's name and ID from user
     employee ()
     {
-        cout << "\nEnter your name and Id ";
+        cout << "\nEnter your name and Id "; 
         cin >> name >> id;
     }
 };
