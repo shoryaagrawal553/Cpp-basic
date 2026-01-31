@@ -2,7 +2,7 @@
 using namespace std;    
 
 // Class demo definition  
-class demo
+class demo 
 { 
 public:
     int sum, n1, n2;
