@@ -12,7 +12,7 @@ public:
     {
         n1 = a;
         n2 = b;
-    }
+    } 
     
     // Default constructor to read two numbers from user and calculate their sum
     demo()
