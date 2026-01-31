@@ -18,7 +18,7 @@ public:
     demo()
     {
         cout << "Enter two numbers";
-        cin >> n1 >> n2;
+        cin >> n1 >> n2; 
         sum = n1 + n2;
     }
     
