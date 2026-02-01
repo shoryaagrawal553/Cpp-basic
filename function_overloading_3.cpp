@@ -10,7 +10,7 @@ public:
     // Parameterized constructor to initialize n1 and n2 with given values
     demo(int a, int b)
     {
-        n1 = a;
+        n1 = a; 
         n2 = b;
     }  
     
