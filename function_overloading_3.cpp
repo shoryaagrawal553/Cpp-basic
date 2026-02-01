@@ -4,7 +4,7 @@ using namespace std;
 // Class demo definition  
 class demo 
 {  
-public:
+public: 
     int sum, n1, n2;
     
     // Parameterized constructor to initialize n1 and n2 with given values
