@@ -10,7 +10,7 @@ class student
   
     public:
     // Member function declarations  
-    void get();   
+    void get();    
     void show();
 };
 
