@@ -9,7 +9,7 @@ class student
     int roll; 
   
     public:
-    // Member function declarations
+    // Member function declarations 
     void get();  
     void show();
 };
