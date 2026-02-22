@@ -2,7 +2,7 @@
 using namespace std;
    
 // Base class A 
-class A
+class A 
 {
     public:
     int n1, n2;
