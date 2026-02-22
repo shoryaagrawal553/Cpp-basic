@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// Base class A
+// Base class A 
 class A
 {
     public:
