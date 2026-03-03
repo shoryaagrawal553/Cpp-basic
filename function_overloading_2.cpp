@@ -2,7 +2,7 @@
 using namespace std; 
    
 // Class A definition 
-class A
+class A 
 { 
 public:
     int n, i, j;
